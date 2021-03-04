@@ -1,0 +1,28 @@
+.section_live {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.live_player {
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 35px;
+	font-size: 20px;
+	text-align: center;
+
+}
+.live_player a{
+	color: black;
+}
+
+@media screen and (max-width: 1000px){
+	iframe {
+		width: 80vw;
+		height: 80vw;
+	}
+
+	
+}

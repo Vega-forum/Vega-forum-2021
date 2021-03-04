@@ -1,0 +1,116 @@
+
+/*css Déroulement de l'évenement*/
+
+h2{
+
+  color: #fe8664;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bolder;
+
+}
+
+h3{
+
+  background-color: #432482;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 8px;
+  padding: 1%;
+  max-width: 200px;
+
+}
+
+.p-custom-1{
+
+  font-size: 18px;
+  padding: 3%;
+
+}
+
+
+.bandeau img{
+  max-width: 100%;
+  object-fit: cover;
+  min-width: 100%;
+  height: 500px;
+
+}
+
+
+
+#programme{
+
+  padding: 2%;
+  margin: 1%;
+  background-color: white;
+
+}
+
+/*
+
+.nom-i{
+
+  color: #fe8664;
+  font-weight: bolder;
+
+}
+
+*/
+
+#cadre{ /**/
+
+  padding: 2%;
+  margin: 2%;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+
+}
+
+.cadre-inter{
+
+  border: #d8d8d8 2px solid;
+  min-width: 200px;
+  max-width: 200px;
+  margin: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  
+
+}
+
+#cadre2{
+
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background: white;
+  padding: 2%;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+
+
+#cadre{
+
+
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+
+
+  }
