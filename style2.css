@@ -71,6 +71,22 @@ body {
   height: 480px;
 }
 
+
+.a-flex{
+
+  margin-left: 1%;
+  margin-right: 1%;
+
+
+}
+
+.a-flex:hover{
+
+    text-decoration: none;
+
+}
+
+
 /* Lien modifié par mes petits soins*/
 .mod_link {
   color: white;
