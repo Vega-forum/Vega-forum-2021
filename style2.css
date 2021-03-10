@@ -86,6 +86,12 @@ body {
 
 }
 
+.h2-flex{
+
+  min-width: 400px;
+
+}
+
 
 /* Lien modifié par mes petits soins*/
 .mod_link {
