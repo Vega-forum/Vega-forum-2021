@@ -134,6 +134,12 @@ html {
   color: #dd9366;
 }
 
+.diplome2{
+
+  font-size: 16px!important;
+
+}
+
 #bottom_container {
   margin-bottom: 20px;
   justify-content: center; /* à modifier si jamais il faut rajouter de nouveaux intervenants*/
