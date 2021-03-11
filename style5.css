@@ -104,7 +104,8 @@ html {
 }
 
 .photo img:hover {
-  opacity: 92%;
+  opacity: 80%;
+  transition: 0.5s;
 }
 
 /* texte sous la photo*/
