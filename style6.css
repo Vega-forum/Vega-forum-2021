@@ -1,4 +1,4 @@
-.section_live {
+/*.section_live {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -25,4 +25,51 @@
 	}
 
 	
+}
+
+*/
+
+
+#section1{
+
+	background-color: white;
+	padding: 2%;
+	margin: 1%;
+	text-align: center;
+
+}
+
+
+.bandeau {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-bottom: grey 2px solid;
+  margin-left: 12px;
+  margin-right: 12px;
+  text-align:center;
+
+}
+.bandeau img {
+  display: flex;
+  max-height : 500px;
+  object-fit: cover;
+}
+
+
+@media screen and (max-width: 1000px){
+	
+	h2{
+
+		font-size: 20px;
+	}
+
+	h3{
+
+		font-size: 18px;
+
+	}
+
+
 }
